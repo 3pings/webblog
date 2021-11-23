@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Justin&#39;s Weblog</title>
-    <link>http://blog.justinbarksdale.com/</link>
+    <link>https://blog.justinbarksdale.com/</link>
     <description>Recent content on Justin&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2021. All rights reserved.</copyright><atom:link href="http://blog.justinbarksdale.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2021. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 23 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.justinbarksdale.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://blog.justinbarksdale.com/about/</link>
+      <link>https://blog.justinbarksdale.com/about/</link>
       <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.justinbarksdale.com/about/</guid>
+      <guid>https://blog.justinbarksdale.com/about/</guid>
       <description>Thanks for visiting my site! My name is Justin Barksdale, and this is my weblog about various technical subjects and the occasional personal topic.
 Personal Information I live with my wife Shannon and our six kids in the Pittsburgh, PA area. I enjoy camping and fishing with my family in my spare time when I am not working. I also enjoy playing golf when I am able.
 Professional Information I’ve been in the Information Technology field for more than 15 years, starting as a help desk support technician.</description>
@@ -20,15 +21,24 @@ Professional Information I’ve been in the Information Technology field for mor
     
     <item>
       <title>Contact</title>
-      <link>http://blog.justinbarksdale.com/contact/</link>
+      <link>https://blog.justinbarksdale.com/contact/</link>
       <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.justinbarksdale.com/contact/</guid>
+      <guid>https://blog.justinbarksdale.com/contact/</guid>
       <description>If you have any queries please contact me by jbarksdale at threepings dot com.
 You can also contact me on:
 Twitter
 LinkedIn
 Github</description>
+    </item>
+    
+    <item>
+      <title>Test Post</title>
+      <link>https://blog.justinbarksdale.com/2021/11/23/Test-Post/</link>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.justinbarksdale.com/2021/11/23/Test-Post/</guid>
+      <description>This is a test Post </description>
     </item>
     
   </channel>

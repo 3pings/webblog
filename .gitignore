@@ -1,3 +1,7 @@
 config.toml
 makefile
 *.vscode
+.hugo_build.lock
+.firebase/
+.firebaserc
+firebase.json

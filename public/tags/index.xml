@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Justin&#39;s Weblog</title>
-    <link>http://blog.justinbarksdale.com/tags/</link>
+    <link>https://blog.justinbarksdale.com/tags/</link>
     <description>Recent content in Tags on Justin&#39;s Weblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2021. All rights reserved.</copyright><atom:link href="http://blog.justinbarksdale.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2021. All rights reserved.</copyright><atom:link href="https://blog.justinbarksdale.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
