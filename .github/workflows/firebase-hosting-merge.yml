@@ -10,25 +10,11 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-20.04
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-        
-      - name: setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.89.4'
-          extended: true
-
-      - name: build
-        run: hugo --minify
-
-      - name: setup firebase and deploy
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
+    - uses: actions/checkout@v1
+      with:
+        submodules: true
+    - uses: ryank90/action-hugo-firebase-deploy@master
+      with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_JUSTINBARKSDALE }}'
           channelId: live
