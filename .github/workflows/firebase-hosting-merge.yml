@@ -1,3 +1,5 @@
+# This is a simple workflow to build a Hugo site and then deploy it on Firebase Hosting 
+
 name: Set Hugo-On-Fire
 
 # Triggers when any commit is pushed on Master
