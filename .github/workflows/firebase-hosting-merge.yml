@@ -16,6 +16,5 @@ jobs:
     - uses: ryank90/action-hugo-firebase-deploy@master
       with:
         firebase-token: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JUSTINBARKSDALE }}
-        alias: ${{ justinbarksdale }}
         hugo-params: -D
 
