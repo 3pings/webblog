@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Justin&#39;s Weblog</title>
+    <title>Categories on Justin&#39;s Blog</title>
     <link>https://blog.justinbarksdale.com/categories/</link>
-    <description>Recent content in Categories on Justin&#39;s Weblog</description>
+    <description>Recent content in Categories on Justin&#39;s Blog</description>
+    <image>
+      <url>https://blog.justinbarksdale.com/</url>
+      <link>https://blog.justinbarksdale.com/</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2021. All rights reserved.</copyright><atom:link href="https://blog.justinbarksdale.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2022. All rights reserved Justin Barksdale.</copyright>
+    <lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.justinbarksdale.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>personal</title>
+      <link>https://blog.justinbarksdale.com/categories/personal/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.justinbarksdale.com/categories/personal/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

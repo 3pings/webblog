@@ -3,7 +3,7 @@ languageCode: en-us
 title: Justin's Blog
 description: "The Sometimes Stream of Consciousness of a Technology Enthusiast and father of six."
 theme: "PaperMod"
-copyright: "&copy; 20212. All rights reserved."
+copyright: "&copy; 2022. All rights reserved Justin Barksdale."
 
 
 googleAnalytics: G-5JEND6WJ4C
@@ -29,7 +29,7 @@ params:
   homeInfoParams:
       Title: "Justin Barksdale"
       Content: >
-          Welcome to my 
+          Content Coming Soon!
   
 
   ShowReadingTime: true

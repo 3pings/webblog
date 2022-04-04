@@ -1,22 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Justin&#39;s Weblog</title>
+    <title>Justin&#39;s Blog</title>
     <link>https://blog.justinbarksdale.com/</link>
-    <description>Recent content on Justin&#39;s Weblog</description>
+    <description>Recent content on Justin&#39;s Blog</description>
+    <image>
+      <url>https://blog.justinbarksdale.com/</url>
+      <link>https://blog.justinbarksdale.com/</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2021. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 23 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.justinbarksdale.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2022. All rights reserved Justin Barksdale.</copyright>
+    <lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.justinbarksdale.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A New Chapter</title>
+      <link>https://blog.justinbarksdale.com/post/2022-03-23-a-new-chapter/</link>
+      <pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.justinbarksdale.com/post/2022-03-23-a-new-chapter/</guid>
+      <description>Coming Soon - A New Chapter</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://blog.justinbarksdale.com/about/</link>
       <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.justinbarksdale.com/about/</guid>
-      <description>Thanks for visiting my site! My name is Justin Barksdale, and this is my weblog about various technical subjects and the occasional personal topic.
-Personal Information I live with my wife Shannon and our six kids in the Pittsburgh, PA area. I enjoy camping and fishing with my family in my spare time when I am not working. I also enjoy playing golf when I am able.
-Professional Information I’ve been in the Information Technology field for more than 15 years, starting as a help desk support technician.</description>
+      <description>About me and this site</description>
     </item>
     
     <item>
@@ -25,21 +36,10 @@ Professional Information I’ve been in the Information Technology field for mor
       <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://blog.justinbarksdale.com/contact/</guid>
-      <description>If you have any queries please contact me by jbarksdale at threepings dot com.
-You can also contact me on:
-Twitter
-LinkedIn
-Github</description>
+      <description>Contact Information</description>
     </item>
     
-    <item>
-      <title>Test Post</title>
-      <link>https://blog.justinbarksdale.com/2021/11/23/Test-Post/</link>
-      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.justinbarksdale.com/2021/11/23/Test-Post/</guid>
-      <description>This is a test Post </description>
-    </item>
+    
     
   </channel>
 </rss>

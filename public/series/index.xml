@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Justin&#39;s Blog</title>
-    <link>https://blog.justinbarksdale.com/tags/</link>
-    <description>Recent content in Tags on Justin&#39;s Blog</description>
+    <title>Series on Justin&#39;s Blog</title>
+    <link>https://blog.justinbarksdale.com/series/</link>
+    <description>Recent content in Series on Justin&#39;s Blog</description>
     <image>
       <url>https://blog.justinbarksdale.com/</url>
       <link>https://blog.justinbarksdale.com/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2022. All rights reserved Justin Barksdale.</copyright><atom:link href="https://blog.justinbarksdale.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2022. All rights reserved Justin Barksdale.</copyright><atom:link href="https://blog.justinbarksdale.com/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
