@@ -1,9 +1,8 @@
-+++
-title = "Contact"
-date = "2021-11-23"
-sidemenu = "true"
-description = "Contact Information"
-+++
+---
+title: "Contact"
+date: "2021-11-23"
+description: "Contact Information"
+---
 
 If you have any queries please contact me by jbarksdale at threepings dot com.
 
