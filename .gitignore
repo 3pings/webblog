@@ -3,7 +3,8 @@ makefile
 .hugo_build.lock
 .firebase/
 
-
+public/
+public/**
 .firebaserc
 firebase.json
 deploy.sh
