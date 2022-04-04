@@ -1,0 +1,112 @@
+baseURL: https://blog.justinbarksdale.com/
+languageCode: en-us
+title: Justin's Blog
+description: "The Sometimes Stream of Consciousness of a Technology Enthusiast and father of six."
+theme: "PaperMod"
+copyright: "&copy; 2022. All rights reserved Justin Barksdale."
+
+
+googleAnalytics: G-5JEND6WJ4C
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+
+  keywords: []
+  author: Justin Barksdale
+  # author: ["Me", "You"] # multiple authors
+  images: [""]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  homeInfoParams:
+      Title: "Justin Barksdale"
+      Content: >
+          Content Coming Soon!
+  
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  # disableSpecial1stPost: false
+  # disableScrollToTop: false
+  # comments: false
+  # hidemeta: false
+  # hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16:  "/favicon-16x16.png"
+    favicon32x32:  "/favicon-32x32.png"
+    apple_touch_icon:  "/apple-touch-icon.png"
+    # safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/3pings"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/justinbarksdale/"
+    - name: github
+      url: "https://github.com/3pings"
+    - name: "rss"
+      url: "https://blog.justinbarksdale.com/index.xml"
+  # editPost:
+  #   URL: "https://github.com/3pings/webblog"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: false # to append file path to Edit link
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - name: Archive
+      url: archive/
+      weight: 10
+    - name: Categories
+      url: categories/
+      weight: 20
+    - name: Tags
+      url: tags/
+      weight: 30
+    - name: About
+      url: about/
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 40
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
