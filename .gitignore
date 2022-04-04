@@ -10,3 +10,15 @@ firebase.json
 deploy.sh
 blog-post-template.md
 config.toml.old
+public/404.html
+public/index.html
+public/about/index.html
+public/archive/index.html
+public/categories/index.html
+public/categories/personal/index.html
+public/contact/index.html
+public/post/index.html
+public/post/2022-03-23-a-new-chapter/index.html
+public/search/index.html
+public/series/index.html
+public/tags/index.html
